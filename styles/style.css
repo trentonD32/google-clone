@@ -1,0 +1,28 @@
+.center1{
+    color: rgb(0, 0, 0);
+    font-size: 150px;
+    text-align:center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-130%);
+    transform: translateX(0%)
+  }
+
+  .center2{
+    font-size: 50px;
+    text-align:center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-200%);
+    transform: translateX(50%)
+  }
+  .search-box {
+    position: relative;
+    top: 50%;
+    transform: translateY(0%);
+    transform: translateX(50%)
+  }
+
+  html {
+      background-color: rgb(124, 110, 110);
+  }
