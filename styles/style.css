@@ -1,11 +1,13 @@
 .center1{
     color: rgb(0, 0, 0);
     font-size: 150px;
+    font-family: sans-serif;
     text-align:center;
     position: relative;
     top: 50%;
     transform: translateY(-130%);
-    transform: translateX(0%)
+    transform: translateX(0%);
+    
   }
 
   .center2{
@@ -14,26 +16,19 @@
     position: relative;
     top: 50%;
     transform: translateY(-200%);
-    transform: translateX(50%)
+    transform: translateX(50%);
   }
   .search-box {
     position: absolute;
     top: 50%;
     transform: translateY(%);
-    transform: translateX(880%)
+    transform: translateX(880%);
   }
 
   html {
       background-color: rgb(124, 110, 110);
-  }
+  }                                                                                                                                                                                                                                 ````
 
-#search-bar{
-  width:35%;
-  display:flex;
-  justify-content: space-between;
-  border-style: solid;
-  padding: 5px;
-  background-color: white;
 }
 #input{
   border: none;
@@ -43,4 +38,11 @@
 .center{
   display:flex;
   justify-content: center;
+}
+
+#top-left-text {
+  display:flex;
+  justify-content:flex-start;
+  align-items:flex-start;
+
 }
