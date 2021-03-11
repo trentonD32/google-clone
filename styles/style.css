@@ -26,8 +26,8 @@
   }
 
   html {
-      background-color: rgb(124, 110, 110);
-  }                                                                                                                                                                                                                                 ````
+      background-color: rgb(243, 235, 235);
+  }           
 
 }
 #input{
@@ -40,9 +40,40 @@
   justify-content: center;
 }
 
-#top-left-text {
+#top-text {
   display:flex;
-  justify-content:flex-start;
+
   align-items:flex-start;
 
+}
+#left-text {
+  display:flex;
+  justify-content: flex-start;
+  width:30px;
+}
+
+#right-text {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0px;
+  top: 0px;
+  transform: translate(-100px);
+  
+  
+}
+#sign-in {
+  display:flex;
+  justify-content: center;
+  color:white;
+  border: 1px solid blue;
+  width:50px;
+  transform:translateX(920px);
+  transform:translateY(px);
+  background-color:blue;
+  
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
 }
