@@ -5,8 +5,9 @@
     text-align:center;
     position: relative;
     top: 50%;
-    transform: translateY(-130%);
+    transform: translateY(100px);
     transform: translateX(0%);
+
     
   }
 
@@ -17,12 +18,14 @@
     top: 50%;
     transform: translateY(-200%);
     transform: translateX(50%);
+ 
   }
   .search-box {
     position: absolute;
     top: 50%;
     transform: translateY(%);
     transform: translateX(880%);
+ 
   }
 
   html {
@@ -35,9 +38,12 @@
   justify-content: stretch;
 }
 
+
+
 .center{
   display:flex;
   justify-content: center;
+  transform: translateY(70px);
 }
 
 #top-text {
@@ -50,6 +56,7 @@
   display:flex;
   justify-content: flex-start;
   width:30px;
+  
 }
 
 #right-text {
@@ -76,4 +83,21 @@
 nav{
   display: flex;
   justify-content: space-between;
+}
+.bottom-buttons{
+  display: flex;
+  justify-content: center   ;
+  align-items: baseline;
+  flex-direction: row-reverse;
+  height:fit-content;
+  transform:translateY(80px)
+
+
+}
+.bottom {
+  display:flex;
+  transform:translateY(190px);
+  padding-bottom: 250px;
+  background-color:rgb(201, 189, 189) ;
+
 }
